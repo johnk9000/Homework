@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/*changed class='content' to 'section'*/
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*changed class='benefits' to 'aside'*/
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*formating for div nested inside sections*/
+section div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*removed tag parent dependancies and made unique h# styles correspond with unique #-vals*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+/*consolidated aside item styles into single class*/
+.aside-item {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* changed header class to div class 'nav'; short for 'navigation' */
+.nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.aside-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*consolidated float-left class with par-div/.child/img class*/
+.section-Leftimg {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+/*consolidated float-right class with par-div/.child/img class*/
+.section-Rightimg {
+    float: right;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
